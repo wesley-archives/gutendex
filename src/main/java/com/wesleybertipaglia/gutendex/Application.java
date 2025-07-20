@@ -1,13 +1,11 @@
 package com.wesleybertipaglia.gutendex;
 
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import com.wesleybertipaglia.gutendex.views.GutendexMenuView;
 
 @SpringBootApplication
-public class GutendexApplication {
-
+public class Application {
 	public static void main(String[] args) {
-		SpringApplication.run(GutendexApplication.class, args);
+		GutendexMenuView.main(args);
 	}
-
 }
